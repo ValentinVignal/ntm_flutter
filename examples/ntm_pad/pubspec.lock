@@ -43,6 +43,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.5"
+  equatable:
+    dependency: transitive
+    description:
+      name: equatable
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.5"
   fake_async:
     dependency: transitive
     description:
@@ -95,6 +102,48 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.8.0"
+  ntm:
+    dependency: "direct main"
+    description:
+      path: "../../../ntm/packages/ntm"
+      relative: true
+    source: path
+    version: "0.0.0"
+  ntm_ast:
+    dependency: transitive
+    description:
+      path: "../../../ntm/packages/ntm_ast"
+      relative: true
+    source: path
+    version: "0.0.0"
+  ntm_core:
+    dependency: transitive
+    description:
+      path: "../../../ntm/packages/ntm_core"
+      relative: true
+    source: path
+    version: "0.0.0"
+  ntm_interpreter:
+    dependency: transitive
+    description:
+      path: "../../../ntm/packages/ntm_interpreter"
+      relative: true
+    source: path
+    version: "0.0.0"
+  ntm_parser:
+    dependency: transitive
+    description:
+      path: "../../../ntm/packages/ntm_parser"
+      relative: true
+    source: path
+    version: "0.0.0"
+  ntm_scanner:
+    dependency: transitive
+    description:
+      path: "../../../ntm/packages/ntm_scanner"
+      relative: true
+    source: path
+    version: "0.0.0"
   path:
     dependency: transitive
     description:
