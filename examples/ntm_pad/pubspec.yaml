@@ -37,6 +37,9 @@ dependencies:
   ntm:
     # TODO(ValentinVignal): Use the pub ntm package when released.
     path: ../../../ntm/packages/ntm
+  ntm_core:
+    # TODO(ValentinVignal): Use the pub ntm package when released.
+    path: ../../../ntm/packages/ntm_core
 
 dev_dependencies:
   flutter_test:
