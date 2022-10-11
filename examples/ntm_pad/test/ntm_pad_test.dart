@@ -14,7 +14,7 @@ void main() {
       await tester.tap(find.byType(RunButton));
       await tester.pump();
 
-      expect(find.widgetWithText(Console, 'Hello World!\n'), findsOneWidget);
+      expect(find.widgetWithText(Console, 'Hello World!'), findsOneWidget);
     },
   );
 
@@ -32,7 +32,7 @@ print add(1, 2);
       await tester.tap(find.byType(RunButton));
       await tester.pump();
 
-      expect(find.widgetWithText(Console, '3\n'), findsOneWidget);
+      expect(find.widgetWithText(Console, '3'), findsOneWidget);
     },
   );
 }
