@@ -34,6 +34,7 @@ class _TextEditorState extends ConsumerState<TextEditor> {
     return TextField(
       enabled: true,
       controller: _controller,
+      expands: true,
       maxLines: null,
     );
   }

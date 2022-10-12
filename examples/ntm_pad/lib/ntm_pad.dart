@@ -26,11 +26,9 @@ class NtmPad extends StatelessWidget {
             children: const [
               Expanded(
                 flex: 4,
-                child: SingleChildScrollView(
-                  child: Padding(
-                    padding: EdgeInsets.all(8.0),
-                    child: TextEditor(),
-                  ),
+                child: Padding(
+                  padding: EdgeInsets.all(8.0),
+                  child: TextEditor(),
                 ),
               ),
               Divider(),
